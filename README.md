@@ -17,7 +17,7 @@ Check versions with `node -v`
 
 1) `git clone https://github.com/hduru/counter_example.git`
 2) `cd counter_example`
-3) do `npm install`
+3) `npm install`
 4) `npm start`
 
 Then open http://localhost:3000/ to see counter example.
@@ -32,7 +32,7 @@ Then open http://localhost:3000/ to see counter example.
 
 #### References
 
-* [Componet and Props](https://reactjs.org/docs/components-and-props.html)
+* [Component and Props](https://reactjs.org/docs/components-and-props.html)
 * [PropTypes](https://reactjs.org/docs/typechecking-with-proptypes.html)
 * [State and Lifecycle](https://reactjs.org/docs/state-and-lifecycle.html)
 * [Basic Hooks](https://reactjs.org/docs/hooks-reference.html#basic-hooks)
