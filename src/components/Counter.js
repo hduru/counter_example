@@ -26,7 +26,7 @@ export default function Counter() {
        //setCount((prev) => prev + 1); //PreviousState Kullanımı
     }
 
-    const decrease = () => setCount((prev) => prev - 1);
+    const decrement = () => setCount((prev) => prev - 1);
 
     const reset = () => setCount(0);
 
@@ -54,7 +54,7 @@ export default function Counter() {
         <div>
           <h1>{count}</h1>
           <button onClick={increment}>Increment</button>
-          <button onClick={decrease}>Decrease</button>
+          <button onClick={decrement}>Decrement</button>
           <button onClick={reset}>Reset</button>
         </div>
     )
